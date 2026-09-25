@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Étudiant 1
+title: Noé Obame
 parent: Journal de bord
 has_children: true
 ---
