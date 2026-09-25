@@ -39,7 +39,7 @@ title: Équipe et rôles
 | Mécanique / CAO | … | … | Conception, impression, assemblage |
 | Électronique | … | … | Schéma, câblage, PCB |
 | Logiciel / firmware | … | … | Code embarqué, tests logiciels |
-| Coordination documentation | … | … | Cohérence du site, structure, relecture finale |
+| Coordination documentation | Hugo ALIDOU | … | Cohérence du site, structure, relecture finale |
 | Coordination / planning | … | … | Suivi des délais, animation des réunions |
 
 ## Fonctionnement
