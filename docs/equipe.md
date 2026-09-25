@@ -14,8 +14,6 @@ title: Équipe et rôles
 
 ## Membres
 
-{: .a_modifier }
-> Une ligne par membre. Le compte GitHub permet de relier chacun à ses contributions.
 
 | Membre | Formation | Compte GitHub |
 |---|---|---|
