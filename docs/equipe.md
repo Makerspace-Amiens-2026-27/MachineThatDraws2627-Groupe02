@@ -17,9 +17,9 @@ title: Équipe et rôles
 
 | Membre | Formation | Compte GitHub |
 |---|---|---|
-| Noé OBAME DJIVO | I2 | [@pseudo](https://github.com/pseudo) |
-| Ilyas NASSIRI | I2 | [@pseudo](https://github.com/pseudo) |
-| Hugo ALIDOU | I2 | [@pseudo](https://github.com/hugoalidou) |
+| Noé OBAME DJIVO | I2 | [@Noe005](https://github.com/Noe005) |
+| Ilyas NASSIRI | I2 | [@Nassiri-Ilyas](https://github.com/Nassiri-Ilyas) |
+| Hugo ALIDOU | I2 | [@hugoalidou](https://github.com/hugoalidou) |
 | Nohem HANQUER | I2 | [@pseudo](https://github.com/pseudo) |
 | Yann VAN NESPEN | I2 | [@pseudo](https://github.com/pseudo) |
 
