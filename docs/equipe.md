@@ -19,7 +19,7 @@ title: Équipe et rôles
 |---|---|---|
 | Noé OBAME DJIVO | I2 | [@pseudo](https://github.com/pseudo) |
 | Ilyas NASSIRI | I2 | [@pseudo](https://github.com/pseudo) |
-| Hugo ALIDOU | I2 | [@pseudo](https://github.com/pseudo) |
+| Hugo ALIDOU | I2 | [@pseudo](https://github.com/hugoalidou) |
 | Nohem HANQUER | I2 | [@pseudo](https://github.com/pseudo) |
 | Yann VAN NESPEN | I2 | [@pseudo](https://github.com/pseudo) |
 
