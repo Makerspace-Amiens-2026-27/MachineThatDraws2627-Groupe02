@@ -13,5 +13,8 @@ Une phrase qui explique ce que fait le projet et pour qui.
 
 ## Équipe
 
-- Prénom Nom
-- Prénom Nom
+- Hugo ALIDOU
+- Noé OBAME DJIVO
+- Ilyas NASSIRI
+- Yann VAN NESPEN
+- Nohem HANQUER
