@@ -36,11 +36,11 @@ title: Équipe et rôles
 
 | Rôle | Responsable | Backup | Ce qu'il couvre |
 |---|---|---|---|
-| Mécanique / CAO | … | … | Conception, impression, assemblage |
-| Électronique | … | … | Schéma, câblage, PCB |
-| Logiciel / firmware | … | … | Code embarqué, tests logiciels |
-| Coordination documentation | Hugo ALIDOU | … | Cohérence du site, structure, relecture finale |
-| Coordination / planning | … | … | Suivi des délais, animation des réunions |
+| Mécanique / CAO | Noé OBAME DJIVO | Yann VAN NESPEN | Conception, impression, assemblage |
+| Électronique | Ilyas NASSIRI | Nohem HANQUER | Schéma, câblage, PCB |
+| Logiciel / firmware | Yann VAN NESPEN | Hugo ALIDOU | Code embarqué, tests logiciels |
+| Coordination documentation | Hugo ALIDOU | Noé OBAME DJIVO | Cohérence du site, structure, relecture finale |
+| Coordination / planning | Nohem HANQUER | Ilyas NASSIRI | Suivi des délais, animation des réunions |
 
 ## Fonctionnement
 
