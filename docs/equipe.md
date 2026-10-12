@@ -25,15 +25,6 @@ title: Équipe et rôles
 
 ## Rôles
 
-{: .a_modifier }
-> Un responsable **et** un backup par rôle. Supprimez les rôles qui ne concernent
-> pas votre projet, ajoutez ceux qui manquent.
->
-> Les rôles peuvent aussi se répartir **par sous-ensemble** plutôt que par domaine
-> (par exemple « Pince », « Châssis », « Carte capteurs »), en reprenant le découpage
-> de la page **Conception**. Chaque responsable suit alors son sous-ensemble dans
-> toutes ses dimensions : mécanique, électronique et code.
-
 | Rôle | Responsable | Backup | Ce qu'il couvre |
 |---|---|---|---|
 | Mécanique / CAO | Noé OBAME DJIVO | Yann VAN NESPEN | Conception, impression, assemblage |
