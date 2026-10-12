@@ -21,7 +21,7 @@ title: Équipe et rôles
 | Ilyas NASSIRI | I2 | [@Nassiri-Ilyas](https://github.com/Nassiri-Ilyas) |
 | Hugo ALIDOU | I2 | [@hugoalidou](https://github.com/hugoalidou) |
 | Nohem HANQUER | I2 | [@pseudo](https://github.com/pseudo) |
-| Yann VAN NESPEN | I2 | [@pseudo](https://github.com/pseudo) |
+| Yann VAN NESPEN | I2 | [@Yann677](https://github.com/Yann677) |
 
 ## Rôles
 
