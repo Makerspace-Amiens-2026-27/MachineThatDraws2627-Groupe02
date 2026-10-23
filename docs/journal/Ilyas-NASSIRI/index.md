@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Etudiant 1
+title: nassiri ilyas
 parent: Journal de bord
 has_children: true
 ---
