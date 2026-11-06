@@ -1,23 +1,33 @@
 
-## Comparaison des différentes architectures de machines à dessiner
+Fais
+
+J'ai réalisé un tableau comparatif des différentes architectures de machines à dessiner, en étudiant leurs caractéristiques techniques, leurs avantages, leurs inconvénients et le matériel nécessaire :
+
+
 
 | Architecture | Principe de fonctionnement | Caractéristiques techniques | Avantages | Inconvénients | Matériel nécessaire | Difficulté |
 |---|---|---|---|---|---|---|
-| Cartésienne XY | | | | | | |
-| CoreXY | | | | | | |
-| Polargraph | | | | | | |
-| Bras articulé (SCARA) | | | | | | |
-| Table tournante (polaire) | | | | | | |
-| Machine à 4 câbles | | | | | | |
+| Cartésienne XY |Le stylo se déplace sur deux axes perpendiculaires X et Y grâce à des moteurs.| 2 moteurs, déplacement linéaire, guidage sur deux axes.|Bonne précision, programmation simple, adaptée à différents dessins. | Nécessite des rails ou des glissières, montage mécanique parfois encombrant.  | 2 moteurs pas à pas, rails, courroies ou vis, Arduino, stylo, système de levage. | moyenne  |
+| CoreXY | Deux moteurs entraînent des courroies pour déplacer le stylo sur les axes X et Y. | 2 moteurs fixes, système de courroies et poulies, guidage linéaire. | Bonne précision, déplacements rapides, moteurs fixes. | Montage des courroies complexe, réglages précis nécessaires. | 2 moteurs pas à pas, courroies, poulies, rails, Arduino, stylo. | Élevée |
+| Polargraph | Deux moteurs enroulent et déroulent des fils pour déplacer un stylo suspendu. | 2 moteurs fixes en hauteur, déplacement par fils, calcul des coordonnées. | Pas besoin de rails, peu de composants, grande surface de dessin. | Précision variable, tension des fils à contrôler, calculs de position nécessaires. | 2 moteurs pas à pas, fils, bobines, support vertical, Arduino, porte-stylo. | Faible à moyenne |
+| Bras articulé (SCARA) | Deux bras articulés tournent pour déplacer le stylo sur une feuille. | 2 articulations principales, mouvements de rotation, calcul des angles.  | Compact, pas besoin de rails, mouvements variés. | Programmation complexe, précision dépendante des articulations.| 2 moteurs adaptés, bras articulés, axes de rotation, Arduino, stylo. | Élevée |
+| Table tournante(polaire) | La feuille tourne sur un plateau pendant que le stylo se déplace vers le centre ou l'extérieur. | 1 moteur pour la rotation, 1 pour le déplacement radial, coordonnées polaires. | Structure compacte, mécanique relativement simple, adaptée aux dessins circulaires. | Dessins rectangulaires moins pratiques, surface limitée par le plateau. | 2 moteurs, plateau tournant, glissière, Arduino, stylo. | Moyenne |
+| Machine à 4 câbles | Quatre moteurs contrôlent des câbles pour déplacer le stylo sur une surface. | 4 moteurs, câbles et bobines, synchronisation des mouvements.| Grande surface de dessin, structure légère, pas besoin de rails. | Synchronisation complexe, tension des câbles difficile à gérer, précision variable. | 4 moteurs pas à pas, câbles, bobines, poulies, Arduino, porte-stylo. | Élevée |
 
-### Architecture retenue
+ Personnelement, je penche plus sur l'architecture XY car elle demande une architecture plus simple au vu de nos capacités. Il faut tous de meme que j'en parle avec mon groupe afin de savoior quelle architecture choisirons nous.
 
-Architecture choisie :
 
-Justification du choix :
+Pourquoi
 
-Matériel disponible à l'école :
+Ce tableau permet de mieux comprendre les différentes possibilités et de faciliter le choix de l'architecture la plus adaptée à notre projet et au matériel disponible.
 
-Matériel manquant :
+Reste à faire
 
-Difficultés envisagées :
+Il reste à se mettre d'accord sur l'architecture à retenir. Il devient urgent de commencer à en discuter sérieusement avec le groupe afin de prendre une décision et de pouvoir avancer sur la conception de notre machine.
+
+SOURCES
+
+AxiDraw – Documentation officielle
+CoreXYZ – MIT Center for Bits and Atoms
+SCARA Robot Design and Control – GitHub
+Présentation du robot AxiDraw
