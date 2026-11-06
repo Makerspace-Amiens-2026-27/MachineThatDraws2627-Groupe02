@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ilyas NASSIRI
+title: Ilyas-NASSIRI
 parent: Journal de bord
 has_children: true
 ---
