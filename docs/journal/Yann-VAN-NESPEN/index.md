@@ -12,7 +12,7 @@ Séance  planifiée – Durée : 3 h
 
 ## Fait
 
-Présentation du projet : Prise de connaissance des consignes, des objectifs et des attentes du projet. Documentation : Lecture approfondie de l’ensemble des documents mis à disposition, notamment la méthodologie du projet, et la page du Makerspace. et les différentes étapes à suivre. Visionnage des 6 tutoriels du Makerspace afin de mieux comprendre les outils, les méthodes de travail et les consignes à respecter. Consultation de la documentation technique de la machine Dadro pour découvrir son fonctionnement et les solutions techniques utilisées. Inventaire du matériel : Identification  des différents composants fournis par l’école. 
+Présentation du projet : Prise de connaissance des consignes, des objectifs et des attentes du projet. Documentation : Lecture approfondie de l’ensemble des documents mis à disposition, notamment la méthodologie du projet, et la page du Makerspace. et les différentes étapes à suivre. Visionnage des 6 tutoriels du Makerspace afin de mieux comprendre les outils, les méthodes de travail et les consignes à respecter. Consultation de la documentation technique de la machine Dadro pour découvr-ir son fonctionnement et les solutions techniques utilisées. Inventaire du matériel : Identification  des différents composants fournis par l’école. 
 
 ## Pourquoi
 
@@ -26,3 +26,25 @@ Se familiariser avec les logiciels nécessaires, notamment Onshape.
 Commencer à répartir les rôles les différentes tâches du projet.
 Préparer les premières étapes de l’assemblage.
 Choisir l'architecture (cartesien, XY)
+
+### 23/10/2026
+
+## Fait
+Etude des solutions informatiques utilisees par le groupe 7 de l’annee derniere -> lecture de la documentation de p5.js (a faire la prochaine seance aussi pour imagetracer.js) https://p5js.org/reference/
+
+## Pourquoi
+lors de la conception, il y aura une separation des grosses pieces en sous-parties pour pouvoir regler les problemes sans recommencer les pieces de zero
+
+## Reste à faire
+continuation de la lecture de la doc et debut d’utilisation des nouveaux outils en code pour mieux les comprendre, afin de pouvoir les utiliser lorsque les codes pourront commencer a etre teste
+
+### 
+06/11/2026
+
+## Fait
+
+
+
+
+
+
