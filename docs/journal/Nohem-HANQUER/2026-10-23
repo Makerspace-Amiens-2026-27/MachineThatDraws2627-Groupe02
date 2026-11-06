@@ -1,0 +1,36 @@
+
+---
+layout: default
+title: "2026-10-23 : Distribution des rôles"
+parent: Hanquer Nohem
+grand_parent: Journal de bord
+---
+
+## Fait
+
+Aujourd'hui, nous nous sommes réparti les différents rôles au sein du groupe afin de mieux organiser notre travail sur le projet de machine à dessiner.
+
+Ensuite, chacun de notre côté, nous avons effectué des recherches pour commencer à réfléchir à la conception de notre machine, notamment à son architecture et aux différents mécanismes possibles.
+
+Nous nous sommes particulièrement intéressés à **l'architecture cartésienne XY**. Cette architecture utilise deux axes perpendiculaires permettant de déplacer un stylo sur une feuille. Elle nous semble intéressante car elle est relativement simple à comprendre et à réaliser.
+
+Pour mieux comprendre son fonctionnement, nous avons consulté un projet de machine à dessiner présenté sur Arduino Project Hub :
+
+[Exemple de machine à dessiner CNC - Arduino Project Hub](https://projecthub.arduino.cc/maker101io/dc76c975-b687-4683-8f6e-0b23875257e4)
+
+### Illustration de l'architecture étudiée
+
+![Exemple de machine à dessiner cartésienne XY](https://images.unsplash.com/photo-1581092160607-ee22621dd758)
+
+## Pourquoi
+
+Cette séance nous a permis de répartir les responsabilités entre les membres du groupe et de commencer à définir les premières orientations techniques du projet.
+
+Les recherches réalisées nous ont aidés à mieux comprendre les différentes architectures possibles. L'architecture cartésienne XY nous paraît être une solution accessible pour notre projet.
+
+## Reste à faire
+
+- Mettre en commun les recherches de chaque membre.
+- Comparer les différentes architectures possibles.
+- Choisir définitivement l'architecture de notre machine.
+- Réaliser les premiers croquis de conception.
