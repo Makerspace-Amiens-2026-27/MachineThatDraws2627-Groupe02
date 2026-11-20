@@ -2,7 +2,7 @@
 layout: default
 title: Noé OBAME DJIVO
 parent: Journal de bord
-grand_parent: true
+has_children: true
 ---
  
 # Noe OBAME DJIVO
