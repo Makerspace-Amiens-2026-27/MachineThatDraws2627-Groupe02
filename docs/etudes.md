@@ -5,78 +5,18 @@ title: Études et choix techniques
 ---
 
 
+
 # Études et choix techniques
 
-## 1. Cahier des charges
+## 1. Recherche de l'existant
 
-### 1.1 Présentation du projet
-
-Notre projet "Machine That Draws" consiste à concevoir et fabriquer une machine à dessiner automatisée, capable de reproduire des dessins sur une feuille de papier.
-
-Nous avons choisi une architecture cartésienne XY. Le stylo sera déplacé horizontalement sur l'axe X et verticalement sur l'axe Y grâce à un système de motorisation et de guidage.
-
-La machine sera réalisée au Makerspace, en utilisant autant que possible le matériel déjà disponible.
-
-**État actuel :** phase de préparation et d'inventaire du matériel.
-
-### 1.2 Objectif principal
-
-Notre objectif est de réaliser une machine capable de reproduire automatiquement des dessins simples sur une feuille A4, avec des déplacements réguliers et une précision suffisante pour reconnaître les formes tracées.
-
-### 1.3 Fonctions principales
-
-| Référence | Fonction | Description |
-|---|---|---|
-| FP1 | Dessiner automatiquement | Reproduire un dessin sur une feuille A4 |
-| FT1 | Déplacer le stylo sur X | Assurer un déplacement horizontal |
-| FT2 | Déplacer le stylo sur Y | Assurer un déplacement vertical |
-| FT3 | Lever et abaisser le stylo | Permettre des tracés séparés |
-| FT4 | Commander les déplacements | Utiliser une carte Arduino |
-| FT5 | Maintenir la feuille | Empêcher son déplacement pendant le dessin |
-| FT6 | Guider le stylo | Assurer des déplacements stables et réguliers |
-
-### 1.4 Contraintes techniques
-
-| Critère | Exigence ou objectif | Statut |
-|---|---|---|
-| Architecture | Cartésienne XY | Confirmé |
-| Format du papier | A4 : 210 × 297 mm | Confirmé |
-| Surface utile | Couvrir la zone de dessin prévue sur A4 | À dimensionner |
-| Motorisation | Étudier les servomoteurs disponibles | À vérifier |
-| Guidage | Utiliser les rails ou glissières disponibles | Confirmé en principe |
-| Commande | Carte Arduino | Choix envisagé |
-| Structure | Stable et suffisamment rigide | À concevoir |
-| Levage du stylo | Permettre de tracer plusieurs segments distincts | À concevoir |
-| Précision | Dessins reconnaissables et reproductibles | À mesurer |
-| Sécurité | Éviter les blocages et permettre l'arrêt des mouvements | À prévoir |
-| Matériel | Privilégier les ressources du Makerspace | Confirmé |
-
-### 1.5 Critères de validation
-
-Pour considérer notre machine comme fonctionnelle, nous souhaitons réaliser les essais suivants :
-
-- Tracer une ligne horizontale.
-- Tracer une ligne verticale.
-- Tracer une diagonale.
-- Dessiner un carré de dimensions définies.
-- Dessiner un cercle ou une forme approchée.
-- Lever le stylo entre deux tracés.
-- Reproduire plusieurs fois un même dessin.
-- Vérifier que la feuille reste immobile.
-
-Ces tests sont prévus, mais n'ont pas encore été réalisés.
-
----
-
-## 2. Recherche de l'existant
-
-### 2.1 Objectif de la recherche
+### 1.1 Objectif de la recherche
 
 Avant de commencer la conception, nous avons étudié différentes architectures de machines à dessiner.
 
 Cette recherche permet de comprendre les solutions existantes et de comparer leurs avantages, leurs inconvénients ainsi que leurs contraintes mécaniques et électroniques.
 
-### 2.2 Comparaison des architectures
+### 1.2 Comparaison des architectures
 
 | Architecture | Principe de fonctionnement | Caractéristiques techniques | Avantages | Inconvénients |
 |---|---|---|---|---|
@@ -87,7 +27,7 @@ Cette recherche permet de comprendre les solutions existantes et de comparer leu
 | Table tournante | La feuille tourne pendant que le stylo se déplace radialement. | Plateau motorisé et axe radial. | Adaptée aux dessins circulaires, structure compacte. | Moins pratique pour certains dessins rectangulaires. |
 | Machine à quatre câbles | Quatre câbles motorisés positionnent le porte-stylo. | Quatre actionneurs, câbles et contrôle des tensions. | Grande surface de dessin possible. | Synchronisation et maintien de tension complexes. |
 
-### 2.3 Exemple de machine existante : AxiDraw
+### 1.3 Exemple de machine existante : AxiDraw
 
 La machine AxiDraw constitue une référence intéressante pour notre projet.
 
@@ -104,7 +44,7 @@ Nous retenons principalement :
 Source :
 https://www.axidraw.com/
 
-### 2.4 Conclusion de la recherche
+### 1.4 Conclusion de la recherche
 
 Après comparaison des différentes architectures, notre groupe a choisi de s'orienter vers une architecture cartésienne XY.
 
@@ -116,9 +56,9 @@ Le choix du système de motorisation et de transmission reste cependant à confi
 
 ---
 
-## 3. Pré-étude de faisabilité
+## 2. Pré-étude de faisabilité
 
-### 3.1 Objectif
+### 2.1 Objectif
 
 Cette pré-étude vise à identifier les principales difficultés techniques avant la fabrication de la machine.
 
@@ -126,7 +66,7 @@ Nous souhaitons vérifier que les composants disponibles peuvent répondre aux b
 
 À ce stade, l'inventaire a commencé, mais aucun résultat de test de faisabilité n'est encore disponible.
 
-### 3.2 Difficultés techniques envisagées
+### 2.2 Difficultés techniques envisagées
 
 | Point technique | Difficulté possible | Vérification ou solution envisagée | État |
 |---|---|---|---|
@@ -139,7 +79,7 @@ Nous souhaitons vérifier que les composants disponibles peuvent répondre aux b
 | Précision | Écarts entre les dimensions programmées et tracées. | Mesurer un carré test et comparer les dimensions. | Test prévu |
 | Format A4 | Course insuffisante sur un axe. | Mesurer les courses utiles des rails. | À vérifier |
 
-### 3.3 Étude particulière des servomoteurs
+### 2.3 Étude particulière des servomoteurs
 
 Le Makerspace dispose de servomoteurs, mais leur référence exacte reste à identifier.
 
@@ -154,7 +94,7 @@ Nous devons donc vérifier si les servomoteurs disponibles sont adaptés à la t
 
 Si ce n'est pas le cas, nous étudierons une autre solution, par exemple des moteurs pas à pas pour les axes X et Y, tout en conservant éventuellement un servomoteur pour le levage du stylo.
 
-### 3.4 Protocole de tests envisagé
+### 2.4 Protocole de tests envisagé
 
 **Test 1 : identification des moteurs**
 
@@ -176,7 +116,7 @@ Demander plusieurs déplacements identiques et mesurer les écarts observés.
 
 Réaliser un carré et vérifier ses dimensions ainsi que la qualité des tracés.
 
-### 3.5 Résultats actuels
+### 2.5 Résultats actuels
 
 Aucun test expérimental n'a encore été réalisé ou documenté dans cette pré-étude.
 
@@ -184,7 +124,7 @@ La prochaine étape consiste à terminer l'inventaire du matériel, puis à réa
 
 ---
 
-## 4. Diagramme FAST
+## 3. Diagramme FAST
 
 Le diagramme FAST permet de relier la fonction principale de notre machine aux fonctions techniques nécessaires pour la réaliser.
 
@@ -211,13 +151,13 @@ Les solutions représentées correspondent à notre architecture envisagée. Les
 
 ---
 
-## 5. Choix techniques
+## 4. Choix techniques
 
-### 5.1 Choix de l'architecture
+### 4.1 Choix de l'architecture
 
 **Contexte :**
 
-Nous devons concevoir une machine capable de reproduire des dessins sur une feuille A4. Le mécanisme doit permettre de contrôler précisément les déplacements du stylo.
+Nous devons concevoir une machine capable de reproduire automatiquement des dessins sur une feuille A4. Le mécanisme doit permettre de contrôler précisément les déplacements du stylo.
 
 **Options envisagées :**
 
@@ -237,7 +177,7 @@ Cette architecture nécessite une structure mécanique suffisamment rigide, un b
 
 Nous acceptons une conception potentiellement plus encombrante en échange d'un mécanisme plus simple à étudier.
 
-### 5.2 Choix du format de dessin
+### 4.2 Choix du format de dessin
 
 **Contexte :**
 
@@ -259,7 +199,7 @@ La structure et les déplacements devront être dimensionnés pour couvrir la zo
 
 Nous ne cherchons pas, pour le moment, à réaliser des dessins au format A3.
 
-### 5.3 Choix du guidage
+### 4.3 Choix du guidage
 
 **Contexte :**
 
@@ -281,7 +221,7 @@ Les dimensions et les caractéristiques des rails disponibles peuvent imposer ce
 
 Nous devrons également vérifier leur état, leur course utile et leur rigidité.
 
-### 5.4 Choix de la motorisation
+### 4.4 Choix de la motorisation
 
 **Contexte :**
 
@@ -305,7 +245,7 @@ Leur utilisation dépendra de leurs caractéristiques et du système de transmis
 
 Nous devrons éventuellement utiliser d'autres moteurs si les servomoteurs disponibles ne permettent pas un contrôle suffisamment précis de la position.
 
-### 5.5 Choix de la carte électronique
+### 4.5 Choix de la carte électronique
 
 **Contexte :**
 
@@ -327,7 +267,7 @@ La carte devra être associée à une alimentation et, si nécessaire, à des ci
 
 Le modèle exact d'Arduino reste à confirmer.
 
-### 5.6 Choix du système de levage du stylo
+### 4.6 Choix du système de levage du stylo
 
 **Contexte :**
 
@@ -353,7 +293,7 @@ Le choix sera confirmé après les premiers tests.
 
 ---
 
-## 6. État d'avancement du projet
+## 5. État d'avancement du projet
 
 | Travail | État |
 |---|---|
@@ -378,7 +318,7 @@ Nous pourrons ensuite définir le système de transmission, réaliser un premier
 
 ---
 
-## 7. Sources documentaires
+## 6. Sources documentaires
 
 ### AxiDraw
 
